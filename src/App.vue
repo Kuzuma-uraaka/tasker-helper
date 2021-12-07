@@ -44,8 +44,8 @@ onMounted(() => {
             it.do(cmd, assistant)
           }
           if(it.jump){
-            // 
-            alert("jump")
+            aHref.value = `tasker://secondary?task=${it.jump}`
+            commandLink.value.click()
           }
         }else{
 
