@@ -1,7 +1,7 @@
 export default {
     "en-US": {
       message: {
-        hello: 'hello world'
+        hello: 'hello world!'
       }
     },
     "ja-JP": {
